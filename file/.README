@@ -1,0 +1,13 @@
+update_file( src, dst , updatelog=True) 
+	Copies files from src to dst if file in dst is different to the file in src.
+	Old files are archived in the '\old' folder in their respective directories.
+	Changes are logged in update.log if updatelog is set.
+
+total_files( root, levels )
+	Counts the total number of files in the given number of levels in root.
+
+
+treesearch( rootdir, sstring, buffersize, = 65536, search_unicode = False )
+	Searches for sstring in all the files in rootdir.
+
+	
